@@ -1,0 +1,43 @@
+.login-screen {
+    background-color: #d4d9e7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.login-heading {
+    font-size: 45px;
+    color: black;
+    font-weight: bold;
+}
+
+.login-slug {
+    font-size: 20px;
+    color: #363534;
+    font-weight: 600;
+}
+
+.login-form-wrapper {
+    background-color: white;
+    padding: 40px 20px 40px 20px;
+    border-radius: 5px;
+}
+
+.login-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+
+@media screen and (max-width:400px) {
+    .login-heading {
+        font-size: 30px;
+    }
+
+    .login-wrapper {
+        flex-direction: column;
+    }
+}

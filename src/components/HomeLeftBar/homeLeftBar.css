@@ -1,0 +1,83 @@
+.home-left-bar-wrapper {
+    background-color: white;
+    padding: 20px;
+}
+
+.profile-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile-image {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+.profile-name {
+    font-size: 15px;
+    font-weight: bold;
+    padding-top: 10px;
+}
+
+.profile-email {
+    font-size: 12px;
+    font-weight: 700;
+    padding-top: 10px;
+}
+
+.recent-content-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.recent-content-list>li {
+    margin-bottom: 6px;
+    cursor: pointer;
+}
+
+.recent-content-list>li:hover {
+    background-color: lightgrey;
+    color: black;
+    border-radius: 5px;
+    padding: 10px;
+    transition: 0.5s;
+}
+
+.recent-content-image {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.recent-post-wrapper {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    text-overflow: ellipsis;
+}
+
+.recent-post-title {
+    font-size: 16px;
+    font-weight: 700;
+    width: 80%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.recent-post-published {
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.spinner-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}

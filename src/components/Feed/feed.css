@@ -1,0 +1,18 @@
+.feed {
+    flex: 6;
+}
+.feedWrapper {
+    height: 100vh;
+    overflow-y: scroll;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+.feedWrapper::-webkit-scrollbar { 
+    display: none;  /* Safari and Chrome */
+}
+.spinner-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}

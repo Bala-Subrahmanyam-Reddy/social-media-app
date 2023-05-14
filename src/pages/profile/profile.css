@@ -1,0 +1,136 @@
+.profile {
+    background-color: #fff4f4;
+}
+
+.profile .profileWrapper {
+    display: flex;
+}
+
+.profile .profileWrapper .profileRight {
+    flex: 9.5;
+}
+
+.profile .profileWrapper .profileRight .profileCover {
+    height: 265px;
+    position: relative;
+}
+
+.profile .profileWrapper .profileRight .profileCover .profileCoverImg {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.profile .profileWrapper .profileRight .profileCover .profileUserImg {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    left: 0;
+    right: 0;
+    margin: auto;
+    top: 110px;
+    object-fit: cover;
+    border: 3px solid white;
+}
+
+.profile .profileWrapper .profileRight .profileInfo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.profile .profileWrapper .profileRight .profileInfo .profileInfoName {
+    font-size: 24px;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+
+.profile .profileWrapper .profileRight .profileInfo .profileInfoDesc {
+    font-weight: 300;
+}
+
+.profile .profileWrapper .profileRight .profileRightBottom {
+    display: flex;
+}
+
+.edit-profile-wrapper {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.form-input {
+    margin-bottom: 10px;
+}
+
+.file-upload {
+    padding-left: 0;
+    margin-left: 0;
+    font-weight: bold;
+}
+
+.label-text {
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.my-data-wrapper {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.my-data-heading {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.my-data-list {
+    list-style: circle;
+    margin-top: 20px;
+    padding-left: 20px;
+}
+
+.my-data-list li {
+    margin-bottom: 20px;
+    cursor: pointer;
+    padding: 5px;
+}
+
+.my-data-list li:hover {
+    background-color: grey;
+    color: black;
+    border-radius: 10px;
+}
+
+.my-data-img {
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+
+}
+
+.my-data-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    padding-left: 20px;
+}
+
+.my-data-title {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.my-data-published {
+    font-size: 13px;
+    font-weight: 600;
+}
+.spinner-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}

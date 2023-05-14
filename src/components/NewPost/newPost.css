@@ -1,0 +1,102 @@
+.post {
+    width: 100%;
+    border-radius: 10px;
+    -webkit-box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.47);
+    box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47);
+}
+
+.post .postWrapper {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.post .postWrapper .postTop {
+    display: flex;
+    align-items: center;
+}
+
+.post .postWrapper .postTop .postProfileImg {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+    border: 1px solid #011631;
+    object-fit: cover;
+}
+
+.post .postWrapper .postTop .postInput {
+    border: none;
+    background-color: transparent;
+    font-size: 18px;
+    width: 80%;
+    height: 30px;
+}
+
+.post .postWrapper .postTop .postInput:focus {
+    outline: none;
+}
+
+.post .postWrapper .postHr {
+    margin: 10px;
+}
+
+.post .postWrapper .postImgContainer {
+    padding: 0 20px 10px 20px;
+    position: relative;
+}
+
+.post .postWrapper .postImgContainer .postImg {
+    width: 100%;
+    object-fit: contain;
+}
+
+.post .postWrapper .postImgContainer .postCancelImg {
+    position: absolute;
+    top: 0;
+    right: 20px;
+    background-color: white;
+    padding: 5px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.post .postWrapper .postBottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.post .postWrapper .postBottom .postOptions {
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+    justify-content: space-around;
+    width: 90%;
+}
+
+.post .postWrapper .postBottom .postOptions .postOption {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.post .postWrapper .postBottom .postOptions .postOption .postIcon {
+    font-size: 30px;
+    margin-right: 10px;
+}
+
+.post .postWrapper .postBottom .postOptions .postOption .postOptionText {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.post .postWrapper .emoji {
+    position: relative;
+    padding: 0 20px 10px 20px;
+    width: 100%;
+    top: 20px;
+    left: 70px;
+}

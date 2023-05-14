@@ -1,0 +1,56 @@
+.register-screen {
+    background-color: #d4d9e7;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.register-heading {
+    font-size: 45px;
+    color: black;
+    font-weight: bold;
+}
+
+.register-slug {
+    font-size: 20px;
+    color: #363534;
+    font-weight: 600;
+}
+
+.register-form-wrapper {
+    background-color: white;
+    padding: 40px 20px 40px 20px;
+    border-radius: 5px;
+}
+
+.user-profile-image {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: none;
+}
+.file-upload{
+    margin-left: 20px;
+    font-weight: 600;
+    cursor: pointer;
+}
+ 
+.register-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+
+@media screen and (max-width:400px) {
+    .register-heading {
+        font-size: 30px;
+    }
+
+    .register-wrapper {
+        flex-direction: column;
+    }
+}
