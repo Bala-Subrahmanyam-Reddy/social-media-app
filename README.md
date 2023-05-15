@@ -2,6 +2,10 @@
 
 It is a react based web application which allows users to post and share content with each other.
 
+## Demo URL
+
+https://social-media-app-test.netlify.app
+
 ## Demo
 
 ![App Screenshot](https://res.cloudinary.com/dqap9au2g/image/upload/v1684062179/socialMediaAppGif_hz6txs.gif)
